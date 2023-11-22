@@ -19,7 +19,7 @@ https://github.com/gsethi2409/tf-pose-estimation <br>
 <h3>2.2 Python virual enviroment </h3>
 Please create a python virtual env.<br>
 <pre>
-python -m venv c:\py310-tfpose
+>python -m venv c:\py310-tfpose
 </pre>
 
 Activate the virtual environmet,<br>
@@ -60,11 +60,14 @@ debug              = False
 </pre>
 
 Please put your own human pose images under images_dir<br>
-
+sample images<br>
+<img src="./assets/images.png" width="1024" height="auto"><br>
  
 <h3>3.2 Estimation </h3>
 Please run the following command.<br>
 <pre>
-python TensorflowHumanPoseEstimator.py
+>python TensorflowHumanPoseEstimator.py
 </pre>
+sample outputs<br>
+<img src="./assets/outputs.png" width="1024" height="auto"><br>
 
